@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-# Author : Rajat Singh & Nurendra Choudhary
+# Research Center : LTRC, IIIT Hyderabad
+__author__ = ["Akirato","revsi"]
 
 def main(content):
     pass
