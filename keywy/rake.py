@@ -130,4 +130,4 @@ def extract_keywords(text):
     rake = Rake("keywy/SmartStoplist.txt")
     keywords = rake.run(text)
     totalKeywords = len(keywords)
-    return(keywords[0:(totalKeywords/3)])
+    return(keywords)
