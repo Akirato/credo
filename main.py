@@ -34,7 +34,7 @@ def main():
     if debug:
         print "===========================Search Results===========================\n"
         for i in search_results:
-            print "===="+i.description+"\n"
+            print "===="+i.description+"====="+str(len(i.description))+"\n"
         print "\n\n"
 
     
