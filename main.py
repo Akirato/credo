@@ -33,8 +33,6 @@ def main():
 
     if debug:
         print "===========================Search Results===========================\n"
-        print search_results 
-        print "\n\n"
 
     
 
