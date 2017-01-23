@@ -7,6 +7,10 @@ import golden_retriever as gr
 import codecs
 debug = True
 
+def clean(text):
+    if len(text)<12:
+        return text.replace('...','')
+    return text[12:].replace('...','')
 
 def main():
     with codecs.open('input.txt', 'r', encoding='utf-8') as myfile:
@@ -34,7 +38,7 @@ def main():
     if debug:
         print "===========================Search Results===========================\n"
         for i in search_results:
-            print "===="+i.description+"\n"
+            print "===="+clean(i.description)+'\n'+str(len(i.description))+"\n"
         print "\n\n"
 
     
